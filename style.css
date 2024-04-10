@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(1, 1, 1, 0.1);
+
+}
+.logo{
+    color:orange;
+    margin: 7px;
+    padding: 5px;
+    font-size: 25px;
+    float: left;
+}
+nav li{
+    display: inline-block;
+
+}
+nav li a{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    margin:0 12px;
+    color: orange;
+}
+nav li a:hover{
+    color:gray;
+    background-color: orange;
+    border-radius: 15px;
+}
+.about {
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    height: 325px;
+    width: 450px;
+    margin-left:50px;
+    margin-top:200px;
+    padding: 20px;
+    
+}
+.education {
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: 325px;
+    width: 450px;
+    margin-left:50px;
+    margin-top:200px;
+    padding:20px;
+    
+}
+.container {
+    height: 325px;
+    width: 450px;
+    
+    background-color:orange;
+    margin-top: 5px;
+    margin:15px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 150px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    
+    
+}.p1{
+    width: 190px;
+    height: 60px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 17px;
+    margin: 12px;
+    background-color:yellow;
+}
+.p1 h2{
+    margin:12px;
+    padding:13px;
+    font-family:arial;
+    
+}
+.container h1{
+    font-family: 'Franklin Gothic Medium';
+    color:white;
+    margin-left: 15px;
+}
